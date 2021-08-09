@@ -1,0 +1,32 @@
+{
+  "name": "@jsonic/block",
+  "version": "0.0.1",
+  "description": "Add multiline string blocks to Jsonic",
+  "main": "block.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsonicjs/block.git"
+  },
+  "keywords": [
+    "jsonic",
+    "json",
+    "plugin",
+    "syntax",
+    "block",
+    "multiline",
+    "string"
+  ],
+  "author": "Richard Rodger (richardrodger.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsonicjs/block/issues"
+  },
+  "homepage": "https://github.com/jsonicjs/block#readme",
+  "dependencies": {
+    "jest": "^27.0.6",
+    "jsonic": "github:jsonicjs/jsonic#nextgen"
+  }
+}

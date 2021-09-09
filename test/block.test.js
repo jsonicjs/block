@@ -12,7 +12,7 @@ describe('block', () => {
   test('happy', () => {
     expect(j('{"a":1}')).toEqual({ a: 1 })
 
-    expect(j.options.plugin.Block).toEqual({marker: { "'''": "'''" }})
+    expect(j.options.plugin.block).toEqual({marker: { "'''": "'''" }})
 
     expect(j(`{a:'''foo'''}`)).toEqual({ a: 'foo' })
 
@@ -40,7 +40,7 @@ describe('block', () => {
     
     expect(jm('{"a":1}')).toEqual({ a: 1 })
 
-    expect(jm.options.plugin.Block).toEqual({marker: {
+    expect(jm.options.plugin.block).toEqual({marker: {
       '#<': '>#',
       '{{': '}}',
       "'''": null,
